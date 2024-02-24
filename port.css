@@ -546,6 +546,26 @@ nav .sidebar{
     }
 
 }
+@media (max-width: 375px)
+{
+    .sec-3 h1{
+        font-size: 30px;
+    }
+    .sec-3 .C1,.sec-3 .C2{
+        margin-left: 2px;
+        grid-template-columns: 1fr 2fr;
+    }
+    .sec-3 h2{
+        font-size: 15px;
+    }
+    .sec-3 p{
+        font-size: 10px;
+    }
+    .sec-3 img{
+        width: 240px;
+        height: 200px;
+    }
+}
 @media (max-width: 320px){
     .sec-2 h1{
         font-size: 30px;
